@@ -1,0 +1,78 @@
+#############################
+# Build results
+#############################
+bin/
+obj/
+publish/
+
+#############################
+# Visual Studio
+#############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.vsdix        # Diagnostic index files
+
+#############################
+# Visual Studio Code
+#############################
+.vscode/
+
+#############################
+# NuGet
+#############################
+*.nupkg
+*.snupkg
+packages/
+# Prevent committing restored packages
+**/packages/*/
+!**/packages/build/
+!**/packages/repositories.config
+
+#############################
+# Logs
+#############################
+*.log
+
+#############################
+# Backup & generated files
+#############################
+*.tmp
+*.bak
+*.orig
+
+#############################
+# OS-specific files
+#############################
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+#############################
+# Dotnet tools
+#############################
+.dotnet-tools/
+
+#############################
+# Rider / JetBrains
+#############################
+.idea/
+*.sln.iml
+
+#############################
+# Resharper
+#############################
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+#############################
+# Code coverage
+#############################
+coverage/
+*.coverage
+*.coveragexml
