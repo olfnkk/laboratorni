@@ -1,10 +1,7 @@
 ﻿namespace laboratorni
 {
-    internal class Program
+    internal class Person
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
     }
+
 }
